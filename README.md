@@ -28,7 +28,7 @@ Steering angle prediction with standard cameras is not robust to scenes characte
 
 ### Model
 
-A series of ResNet architectures, i.e., ResNet18 and ResNet50, have been deployed to carry out the steering prediction task. They are used as feature extractors, considering only their convolutional layers. Next, a global average pooling (GAP) layer is used to encode the image features into a vectorized descriptor that feeds a fully-connected (FC) layer (256-dimensional for ResNet18 and 1024-dimensional for ResNet50). This FC layer is followed by a ReLU non-linearity, and the final 1-dimensional FC layer to output the predicted steering angle.
+A series of ResNet architectures, i.e., ResNet18 and ResNet50, have been deployed to carry out the steering prediction task. They are used as feature extractors, considering only their convolutional layers. Next, a global average pooling (GAP) layer is used to encode the image features into a vectorized descriptor that feeds a fully-connected (FC) layer (256-dimensional for ResNet18 and 1024-dimensional for ResNet50). This FC layer is followed by a ReLU non-linearity, and the final 1-dimensional FC layer to output the predicted steering angle. The weights of a ResNet-50 trained on the entire dataser are available at [this link](https://github.com/uzh-rpg/event_steering_angle_public/releases/tag/ResNet50Full).
 
 ![architecture](images/architecture.png)
 
