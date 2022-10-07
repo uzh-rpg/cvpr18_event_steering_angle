@@ -6,16 +6,17 @@ This repository contains a deep learning approach to unlock the potential of eve
 
 If you use this code in an academic context, please cite the following publication:
 
-Paper: [Event-based vision meets deep learning on steering prediction for self-driving cars](http://rpg.ifi.uzh.ch/docs/CVPR18_Maqueda.pdf)
+Paper: [Event-based vision meets deep learning on steering prediction for self-driving cars](http://rpg.ifi.uzh.ch/docs/CVPR18_Maqueda.pdf), **CVPR 2018**.
 
 Video: [YouTube](https://www.youtube.com/watch?v=_r_bsjkJTHA&feature=youtu.be)
 
-```
-@inproceedings{maqueda_2018,
+```bibtex
+@InProceedings{Maqueda2018cvpr,
   title={Event-based vision meets deep learning on steering prediction for self-driving cars},
   author={Maqueda, Ana I and Loquercio, Antonio and Gallego, Guillermo and Garc{\i}a, Narciso and Scaramuzza, Davide},
-  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
   pages={5419--5427},
+  doi={10.1109/CVPR.2018.00568},
   year={2018}
 }
 
